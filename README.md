@@ -3,7 +3,7 @@
 # How to run
 
 ```
-. random_username_generator
+./random_username_generator
 ```
 
 # How it works!
