@@ -1,3 +1,3 @@
 set -e
-cc -o random_username_generator main.c
-./random_username_generator
+cc -o generate_username main.c
+./generate_username

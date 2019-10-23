@@ -20,22 +20,17 @@ void print_random_word(char * buffer, int buffer_len) {
 }
 
 int main() {
-
     srand(time(NULL));
     char * adjectives;
     int adjectives_len = 10453;
     load_file(&adjectives, adjectives_len, "adjectives.txt");
-
     char * nouns;
     int nouns_len = 53672;
     load_file(&nouns, nouns_len, "nouns.txt");
-
     for (int i = 0; i < 40; ++i) {
         print_random_word(adjectives, adjectives_len);
         print_random_word(nouns, nouns_len);
         printf("\n");
-    } // for
-
-
+    }
     return 0;
 }
